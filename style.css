@@ -1,4 +1,7 @@
-body {margin: 0px;}
+body {
+	margin: 0px; 
+	background-image: url("img/fon.jpg");
+}
 
 
 
@@ -18,41 +21,58 @@ body {margin: 0px;}
 }
 
 .logo {
-	background-color: yellow;
+	background-color: #adadad;
 	width: 100%;
 	height: 20%;
+
+	text-align: center;
 }
 
 .text {
-	background-color: red;
+	background-color: #adadad;
 	width: 100%;
 	height: 50%;
 }
 
 .menu-botton {
-	background-color: blue;
+	background-color: #adadad;
 	width: 100%;
 	height: 30%;
 
-	
+	display: flex;
+	align-items: center;
 	
 }
 
 .botton {
-	background-color: gray;
+	background-color: #adadad;
 	width: 100px;
-	height: 50px;
+	height: 35px;
 
-	position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	
+	margin: auto;
+
+	border: 1px solid gray;
 }
 
+.botton:hover {
+	background-color: gray;
+}
+
+.botton a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.p-botton {
+	margin: auto;
+}
 
 
 
