@@ -36,7 +36,32 @@ td {
 	height: 250px;
 }
 
+.menu-1-1 {
+	background-image: url(img/bewbarmak.jpg);
+	background-size: cover;
+}
 
+.menu-1-1 a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu-1-1 a:hover {
+	color: white;
+}
+
+.menu-1-1 p {
+	
+	border: 1px solid black;
+    padding: 5px;
+    margin: auto;
+    margin-top: 80%;
+
+    width: 75%;
+    background: #fc0;
+
+    text-align: center;
+}
 
 
 
