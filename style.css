@@ -5,8 +5,8 @@ body {
 
 
 
-.content {
-	background-color: gray;
+.content { 
+	background-color: #;
 	width: 1000px;
 	height: 500px;
 
@@ -18,24 +18,32 @@ body {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
 }
 
 .logo {
-	background-color: #adadad;
+	background-color: #;
 	width: 100%;
 	height: 20%;
 
 	text-align: center;
+
 }
 
 .text {
-	background-color: #adadad;
+	background-color: #;
 	width: 100%;
 	height: 50%;
+
+	text-align: center;
 }
 
+.text h1 {color: white;}
+.text h2 {color: white;}
+
+
 .menu-botton {
-	background-color: #adadad;
+	background-color: #;
 	width: 100%;
 	height: 30%;
 
